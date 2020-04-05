@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="PlayPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MusimangosController">
+   <children>
+      <Button fx:id="startbutton" layoutX="283.0" layoutY="299.0" mnemonicParsing="false" onAction="#playSong" text="Start" />
+      <MediaView fx:id="MediaPane" fitHeight="200.0" fitWidth="200.0" layoutX="200.0" layoutY="29.0" />
+   </children>
+</AnchorPane>

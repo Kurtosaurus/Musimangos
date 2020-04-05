@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="HighscoresPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MusimangosController">
+   <children>
+      <Button fx:id="menubutton" layoutX="283.0" layoutY="299.0" mnemonicParsing="false" onAction="#showMenuScene" text="Menu" />
+   </children>
+</AnchorPane>
