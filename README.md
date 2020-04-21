@@ -4,3 +4,4 @@ Todo List
 Enable easy/hard mode
 css
 UML for all of project :v
+write a proper readme
