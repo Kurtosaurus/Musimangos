@@ -1,0 +1,10 @@
+Mango,3432
+Plup,80
+Axe,70
+Scar,60
+S2J,50
+None,46
+Leffen,8
+Wizzy,7
+M2K,2
+HBox,0
