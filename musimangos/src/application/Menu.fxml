@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane fx:id="MenuPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MusimangosController">
+<AnchorPane fx:id="MenuPane" prefHeight="400.0" prefWidth="600.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MusimangosController">
    <children>
-      <Button fx:id="playbutton" layoutX="283.0" layoutY="299.0" mnemonicParsing="false" onAction="#showPlayScene" text="Play" />
+      <Button fx:id="playbutton" layoutX="282.0" layoutY="286.0" mnemonicParsing="false" onAction="#showPlayScene" text="Play" />
+      <Button layoutX="231.0" layoutY="327.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="150.0" />
       <Button fx:id="hiscoresButton" layoutX="266.0" layoutY="364.0" mnemonicParsing="false" onAction="#showHighscoresScene" text="Highscores" />
-      <Button fx:id="optionsButton" layoutX="273.0" layoutY="333.0" mnemonicParsing="false" onAction="#showOptionsScene" text="Options" />
+      <RadioButton fx:id="RBEZ" layoutX="247.0" layoutY="333.0" mnemonicParsing="false" onAction="#easyMode" text="Easy">
+         <toggleGroup>
+            <ToggleGroup fx:id="lol" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="RBHard" layoutX="323.0" layoutY="333.0" mnemonicParsing="false" onAction="#hardMode" text="Hard" toggleGroup="$lol" />
+      <Button layoutX="221.0" layoutY="93.0" mnemonicParsing="false" prefHeight="136.0" prefWidth="170.0" />
+      <Label fx:id="names" layoutX="268.0" layoutY="151.0" minWidth="10.0" prefHeight="20.0" prefWidth="77.0" text="Corey Ramsdell" wrapText="true" />
+      <Label layoutX="224.0" layoutY="93.0" text="Musimangos">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <Label fx:id="names1" layoutX="278.0" layoutY="189.0" minWidth="10.0" prefHeight="20.0" prefWidth="59.0" text="Kurt Smith " wrapText="true" />
+      <Label fx:id="names2" layoutX="277.0" layoutY="131.0" minWidth="10.0" prefHeight="20.0" prefWidth="59.0" text="Ivan Rivera" wrapText="true" />
+      <Label fx:id="names3" layoutX="280.0" layoutY="171.0" minWidth="10.0" prefHeight="20.0" prefWidth="53.0" text="Kalie Davis" wrapText="true" />
+      <Label fx:id="names31" layoutX="277.0" layoutY="209.0" minWidth="10.0" prefHeight="20.0" prefWidth="59.0" text="Pablo Perez" textAlignment="CENTER" wrapText="true" />
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="231.0" layoutY="135.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@mango.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32" fitWidth="32" layoutX="351.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@mango.jpg" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

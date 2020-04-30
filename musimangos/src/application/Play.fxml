@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.media.*?>
 <?import javafx.scene.web.*?>
@@ -11,15 +12,21 @@
 
 <AnchorPane fx:id="PlayPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MusimangosController">
    <children>
-      <Button fx:id="startbutton" layoutX="109.0" layoutY="299.0" mnemonicParsing="false" onAction="#playSong" text="Play Song" />
+      <ImageView fitHeight="438.0" fitWidth="709.0" layoutX="-79.0" opacity="0.67" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BackPic.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="startbutton" layoutX="152.0" layoutY="299.0" mnemonicParsing="false" onAction="#playSong" text="Play Song" />
       <MediaView fx:id="MediaPane" fitHeight="200.0" fitWidth="200.0" layoutX="200.0" layoutY="29.0" />
-      <TextField fx:id="enteredAnswer" layoutX="359.0" layoutY="264.0" />
-      <Button fx:id="pressedGuess" layoutX="389.0" layoutY="299.0" mnemonicParsing="false" onAction="#checkAnswer" text="Guess Song" />
-      <Button fx:id="quitButton" layoutX="107.0" layoutY="334.0" mnemonicParsing="false" onAction="#quitGame" text="Quit Game" />
-      <Label fx:id="scoreLabel" layoutX="398.0" layoutY="29.0" text="Score: 0">
+      <TextField fx:id="enteredAnswer" layoutX="387.0" layoutY="118.0" />
+      <Button fx:id="pressedGuess" layoutX="418.0" layoutY="162.0" mnemonicParsing="false" onAction="#checkAnswer" text="Guess Song" />
+      <Button fx:id="quitButton" layoutX="150.0" layoutY="334.0" mnemonicParsing="false" onAction="#quitGame" text="Quit Game" />
+      <Label fx:id="scoreLabel" layoutX="426.0" layoutY="29.0" text="Score: 0" textFill="WHITE">
          <font>
             <Font size="15.0" />
          </font>
       </Label>
+      <TextArea fx:id="LyricBox" editable="false" layoutX="55.0" layoutY="44.0" prefHeight="220.0" prefWidth="258.0" />
    </children>
 </AnchorPane>

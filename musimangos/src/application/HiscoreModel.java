@@ -11,12 +11,14 @@ import javafx.scene.control.Alert.AlertType;
 public class HiscoreModel{
 	
 	public static void updateScores(String name, int score) throws IOException {
-		
-		//System.out.println(score);
+		System.out.println(name);
+
+		System.out.println(score);
 		
 		
 		File Hiscores = new File("src/application/Hiscores.txt"); //open files and make sure they exist
 		File temp = new File("src/application/temp.txt");
+		//if it exist delete it
 		if(temp.exists()){
 			temp.delete();
 			temp.createNewFile();
@@ -26,7 +28,7 @@ public class HiscoreModel{
 		}
 		
 		int i = 0;		//init variables and objects
-		
+		//init varibles
 		Scanner sc = new Scanner(Hiscores);
 		FileWriter wr = new FileWriter(temp);
 		String line;
@@ -44,7 +46,7 @@ public class HiscoreModel{
 				System.exit(1);
 			}
 			if(score > tScore && !bool){//check if player score is higher than others
-				wr.write(name + "," + score + "\n");
+				wr.write(name + ", " + (Integer.toString(score)) + "\n");
 				i++;
 				bool = true;
 			}

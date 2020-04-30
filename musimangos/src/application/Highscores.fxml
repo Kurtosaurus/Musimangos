@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.control.*?>
@@ -9,12 +12,26 @@
 
 <AnchorPane fx:id="HighscoresPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MusimangosController">
    <children>
-      <Button fx:id="menubutton" layoutX="279.0" layoutY="364.0" mnemonicParsing="false" onAction="#showMenuScene" text="Menu" />
-      <Label contentDisplay="CENTER" layoutX="25.0" prefHeight="91.0" prefWidth="200.0" text="Hiscores! \^-^/" />
-      <TextArea fx:id="HighscoresTextArea" editable="false" layoutX="25.0" layoutY="64.0" prefHeight="270.0" prefWidth="200.0" />
-      <TextField fx:id="ScoreField" layoutX="271.0" layoutY="67.0" />
-      <Text layoutX="271.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
-      <Button fx:id="AddScoreButton" layoutX="338.0" layoutY="94.0" mnemonicParsing="false" onAction="#updateHiscores" text="Add score" />
-      <Button fx:id="LoadScoresButton" layoutX="151.0" layoutY="334.0" mnemonicParsing="false" onAction="#displayHighscores" text="Load scores" />
+      <ImageView fitHeight="444.0" fitWidth="604.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@8NgqxA_2.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="menubutton" layoutX="250.0" layoutY="382.0" mnemonicParsing="false" onAction="#showMenuScene" text="Menu" />
+      <Label contentDisplay="CENTER" layoutX="233.0" layoutY="-12.0" prefHeight="91.0" prefWidth="121.0" text="Highscores! \^-^/" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextArea fx:id="HighscoresTextArea" editable="false" layoutX="179.0" layoutY="69.0" opacity="0.6" prefHeight="270.0" prefWidth="229.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></TextArea>
+      <TextField fx:id="ScoreField" layoutX="364.0" layoutY="368.0" />
+      <Text fill="WHITE" layoutX="364.0" layoutY="365.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+      <Button fx:id="AddScoreButton" layoutX="431.0" layoutY="395.0" mnemonicParsing="false" onAction="#updateHiscores" text="Add score" />
+      <Button fx:id="LoadScoresButton" layoutX="89.0" layoutY="382.0" mnemonicParsing="false" onAction="#displayHighscores" text="Load scores" />
    </children>
 </AnchorPane>
