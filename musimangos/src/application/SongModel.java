@@ -11,7 +11,10 @@ import java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
+/*SongModel contains the logic for the media player,
+and song array
+kurt smith, Kalie Davis, Ivan Rivera, Pablo  Perez, Correy Ramsgate
+*/
 public class SongModel {
 	
 	private Random rand = new Random();	//set up random number
