@@ -19,6 +19,10 @@ import javafx.scene.shape.Circle;
 
 
 //display settings for start screen
+/*MusimangosMain is the main call fuction for the musimangos application
+it creates the scenes. and handles menu screen animations
+the application allows the user to play a music guessing game
+Kurt Smith, Ivan Rivera, Coorey Ramsgates, Kalie Davis Pablo Perez*/
 
 public class MusimangosMain extends Application {
 	public Circle cir1 = new Circle();
