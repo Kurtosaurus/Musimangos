@@ -6,33 +6,37 @@ Musimangos is a music game where the user can guess which song is playing
 
 Created by Musicorum (group 6): 	
 
-  *Corey Ramsdell
-  *Ivan Rivera
-  *Kalie Davis
-  *Kurt Smith
-  *Pablo Perez
+  * Corey Ramsdell
+  
+  * Ivan Rivera
+  
+  * Kalie Davis
+  
+  * Kurt Smith
+  
+  * Pablo Perez
 	
 ## How it Works
 
 ### Getting started
 
-  *Select Difficulty
+  * Select Difficulty
   
-  *Press Play
+  * Press Play
 
 ### Playing
 
-  *Press "play song"
+  * Press "play song"
   
-  *Type the name of the song into the text box
+  * Type the name of the song into the text box
   
-  *Press "guess song"
+  * Press "guess song"
 
 ### High Scores
 
-  *Press "load scores"
+  * Press "load scores"
   
-  *If you qualify enter name and press "add score"
+  * If you qualify enter name and press "add score"
 
 ## Versions and Other Requirements
 
