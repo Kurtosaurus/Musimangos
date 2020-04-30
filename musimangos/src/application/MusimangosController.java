@@ -33,6 +33,11 @@ import javafx.util.Duration;
 import java.net.URI;
 import java.net.URL;
 
+
+/*musimangosController
+handles the main game logic of the application
+Kurt Smith, Kalie Davis, Ivan Rivera, Pablo Perez, Corry Ramsgate
+*/
 public class MusimangosController{// implements Initializable{
 	
 	@FXML
