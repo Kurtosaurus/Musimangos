@@ -18,6 +18,12 @@ Created by Musicorum (group 6):
 	
 ## How it Works
 
+### Cloning and Installing
+
+  * Get clone link or download zip file
+
+  * Import into workspace
+
 ### Getting started
 
   * Select Difficulty
@@ -40,4 +46,14 @@ Created by Musicorum (group 6):
 
 ## Versions and Other Requirements
 
-	*1.0 Patch
+### Musimangos 1.0 Patch*
+
+  >> 2 Modes (easy and hard)
+
+  >> Easy mode includes lyrics
+  
+  >> Hard mode without lyrics
+  
+  >> Ability to import own mp3
+
+*REQUIRES JRE
