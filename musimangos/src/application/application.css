@@ -1,1 +1,16 @@
 /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+	
+	-fx-background-color:Azure;
+	
+}
+.scene{
+	-fx-background-color:Azure;
+
+}
+.text{
+	-fx-fill:white;
+}
+.button{
+	-fx-background-color:Darkgrey;
+	}

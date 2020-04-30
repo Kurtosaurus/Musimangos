@@ -1,10 +1,6 @@
-Mango,3432
-Plup,80
-Axe,70
-Scar,60
-S2J,50
-None,46
-Leffen,8
-Wizzy,7
-M2K,2
-HBox,0
+Mango, 3432
+ax, 788
+wizzy, 655
+jeff, 444
+shrek, 443
+Kurt, 426
