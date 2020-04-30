@@ -1,20 +1,6 @@
 # Musimangos
 
 Musimangos is a music game where the user can guess which song is playing
-
-## Development Team
-
-Created by Musicorum (group 6): 	
-
-  * Corey Ramsdell
-  
-  * Ivan Rivera
-  
-  * Kalie Davis
-  
-  * Kurt Smith
-  
-  * Pablo Perez
 	
 ## How it Works
 
@@ -43,17 +29,31 @@ Created by Musicorum (group 6):
   * Press "load scores"
   
   * If you qualify enter name and press "add score"
+  
+  ## Development Team
+
+Created by Musicorum (group 6): 	
+
+  * Corey Ramsdell
+  
+  * Ivan Rivera
+  
+  * Kalie Davis
+  
+  * Kurt Smith
+  
+  * Pablo Perez
 
 ## Versions and Other Requirements
 
 ### Musimangos 1.0 Patch*
 
-  >> 2 Modes (easy and hard)
+  * 2 Modes (easy and hard)
 
-  >> Easy mode includes lyrics
+  * Easy mode includes lyrics
   
-  >> Hard mode without lyrics
+  * Hard mode without lyrics
   
-  >> Ability to import own mp3
+  * Ability to import own mp3
 
 *REQUIRES JRE
